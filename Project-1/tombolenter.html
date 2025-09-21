@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-time Input</title>
+</head>
+<body>
+
+    <input type="text" id="text" placeholder="Ketik sesuatu...">
+    <div id="output"></div> <script>
+        document.getElementById("text").addEventListener("keyup", function() {
+            let input = document.getElementById("text").value;
+            document.getElementById("output").innerText = "Hasil ketikan Anda: " + input;
+        });
+    </script>
+
+</body>
+</html>
