@@ -88,16 +88,35 @@
     
     
     // ========================================
-
+    
     function sapa(){
         console.log("Halo, ini adalah yazin");
     };
 
     sapa();
 
-
+    
     function sapaNama(nama){
         console.log(`Halo Selamat datang pemirsa, ${nama}`);
     }
+    
 
+    // ========================================
     sapaNama("Yazin noura");
+    
+    function tambah(a,b){
+        return a * b ;
+    }
+    
+    let hasil = tambah(22,223);
+    console.log(hasil);
+
+
+    // ========================================
+
+    function sapaOrang(nama = "Tamu") {
+        console.log(`Hai, ${nama}`)
+    }
+
+    sapaOrang();
+    sapaOrang("Dewi");
