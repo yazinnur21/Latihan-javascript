@@ -88,31 +88,44 @@
 
 // ================================
 
-let siswa = {
-    "nama" : "budi",
-    "umur" : 15,
-    "kelas" : "11 IPA",
-    "hobi" : ["Membaca", "berenang", "main game"]
+// let siswa = {
+//     "nama" : "budi",
+//     "umur" : 15,
+//     "kelas" : "11 IPA",
+//     "hobi" : ["Membaca", "berenang", "main game"]
+// };
+
+// console.log("Data Sekarang", siswa);
+// console.log(siswa.nama);
+// console.log(siswa.hobi);
+
+// siswa.alamat = "Jl. Sudiang";
+// console.log("Alamat siswa telah ditambahkan", siswa.alamat);
+
+// siswa.umur = 19;
+// console.log("Umur anda telah berubah : ", siswa.umur);
+
+// delete siswa.kelas;
+// console.log("Data setelah dihapus", siswa);
+
+// let JsonString = JSON.stringify(siswa);
+// console.log("Dalam bentuk string json : ", JsonString);
+
+// let dataBaru = JSON.parse(JsonString);
+// console.log("Kembali ke bentuk Object : ", dataBaru);
+
+
+//================================
+
+let buku = {
+    Judul : "Belajar JSON",
+    halaman : 120,
+    tersedia : true,
+    kategori : [pemrograman, dasar]
+    penulis : {
+        nama : "yazin",
+    }
 };
 
-console.log("Data Sekarang", siswa);
-console.log(siswa.nama);
-console.log(siswa.hobi);
-
-siswa.alamat = "Jl. Sudiang";
-console.log("Alamat siswa telah ditambahkan", siswa.alamat);
-
-siswa.umur = 19;
-console.log("Umur anda telah berubah : ", siswa.umur);
-
-delete siswa.kelas;
-console.log("Data setelah dihapus", siswa);
-
-let JsonString = JSON.stringify(siswa);
-console.log("Dalam bentuk string json : ", JsonString);
-
-let dataBaru = JSON.parse(JsonString);
-console.log("Kembali ke bentuk Object : ", dataBaru);
-
-
+console.log(buku.judul)
 
